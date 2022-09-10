@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Overpass:wght@900&family=Patua+One&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Baloo+Thambi+2&family=Dancing+Script:wght@500&family=Macondo&family=Montserrat:wght@300&family=Nunito:ital,wght@0,700;1,600&family=Pacifico&family=Roboto+Slab&family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.container-fluid{
+    padding: 4% 7% 3%;
+}
+
+
+/* navbar  */
+
+#navbar-part{
+    background-color: #1f2833 ;
+    color: #fff;
+    padding: 0 5%;
+    
+    
+}
+
+.navbar{
+    text-align: center;
+    padding-bottom: 1rem;
+    width:100%;
+}
+
+.navbar-brand{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #66fcf1;
+}
+
+
+.nav-item{
+    padding: 0 18px;
+    cursor: pointer;
+}
+
+.nav-link{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #66fcf1;
+}
+
+/* Introduction  */
+
+#introduction{
+    background-color: #1f2833;
+    padding: 0 10%;
+    padding-top: 0;
+}
+
+.first-intro{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;  
+    margin-top: 5%;
+    margin-bottom: 20%;
+    font-weight: 800;
+    color: #66fcf1;
+}
+
+.first-intro-sub{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-top: 10%;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 200;
+}
+
+.profile-img{
+    width: 80%;
+    border-radius: 18%;
+    margin-left: 12%;
+    margin-top: 3%; 
+}
+
+/* about-me */
+
+#about-me{
+    color: #000B49;
+    padding: 5% 15%;
+}
+
+.heading1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.about-img{
+    width: 60%;
+    margin-left: 18%;
+    border: 2px solid black;
+    margin-top: 10%;
+    border-radius: 2%;
+}
+
+.about-me-intro{
+    text-align: left;
+    margin-top: 20%;
+    line-height: 2.5;
+    font-weight: 500;
+    padding: 5%;
+    
+}
+
+.download-btn{
+    background-color: #000B49;
+    color: #fff;
+    margin: 5%;
+}
+
+/* Education Language Interest  */
+
+#edu-lang-int{
+    background-color: #1f2833;
+    color: #fff;
+}
+
+.heading2{
+    font-size: 3rem;
+    margin-bottom: 1.8rem;
+    color: #66fcf1;
+    padding-top: 10%;
+}
+
+.heading-hr{
+    opacity: 3;
+    margin: 0 30px;
+    padding-bottom: 10%;
+}
+
+/* Education */
+
+#edu-lang-int .menu{
+    transform: translateY(-1%);
+}
+
+#edu-lang-int .list{
+    padding-left: 80px;
+    position: relative;
+}
+
+#edu-lang-int .list::after{
+    content: "";
+    position: absolute;
+    width:3px;
+    height: calc(93% - 30px);
+    left: 40px;
+    top: 0;
+    background: white;
+    z-index: -2;
+    margin-top: 85px;
+}
+
+#edu-lang-int .list .details{
+    padding: 20px 0;
+    padding-left: 50px;
+}
+
+#edu-lang-int .list h2{
+    position: relative;
+    color: #66fcf1;
+    font-weight: 400;
+}
+
+#edu-lang-int .list h2::before{
+    content: "";
+    position: absolute;
+    background: white;
+    width: 20px;
+    height: 20px;
+    left: -48px;
+    top: 10px;
+    transform: translateY(-1%);
+    border-radius: 50px;
+    border: 3.5px solid white;
+}
+
+#edu-lang-int .list h2.active{
+    font-weight: 700;
+    
+}
+#edu-lang-int .list h2.active::before{
+    background: #fff;
+}
+
+#edu-lang-int p{
+    line-height: 2rem;
+}
+
+/* language */
+.language{
+    padding-left: 80px;
+    position: relative;
+    margin-top: 55px; 
+}
+
+.language h2{
+    color: #66fcf1;
+}
+.language hr{
+    opacity: 0.75;
+}
+
+.interest {
+    padding-left: 65px;
+    position: relative;
+    margin-top: 55px;
+}
+
+.interest h2{
+    color: #66fcf1;
+
+}
+
+.interest hr{
+    opacity: 0.75;
+}
+
+/* skills */
+
+#skills{
+    margin : 2% auto;
+    padding: 1%;
+    color: #1f2833;
+}
+
+#skills h2{
+    margin: 10% 0px 5%;
+    color: #1f2833;
+}
+
+.heading3{
+    font-size: 3rem;
+    
+}
+.heading4{
+    font-size: 2.5rem;
+    margin-top: 10%;
+    font-weight: 500;
+    
+}
+.skills-hr{
+    opacity: 0.75;
+    color: #dc164e;
+    padding-bottom: 10%;
+    margin: 0 50px;
+    
+}
+
+/* softskill */
+
+.soft-skills{
+    text-align: center;
+
+    
+}
+
+.soft-skills i{
+    font-size: 3rem ;
+}
+
+.soft-skills p{
+    font-size: 1.5rem;
+    padding: 10% 0;
+}
+
+.soft-skills  .skill-card{
+    
+    background-color: #66fcf1;
+    height: 200px;
+    width: 300px;
+    padding: 2rem 1rem;
+    border-radius: 5%;
+}
+
+
+/* techskill */
+
+.skills-bar{
+    margin-left: 10px;
+}
+
+.skills-bar ul li{
+    list-style-type: none;
+}
+
+.skills-bar h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.skills-bar h3 span{
+    float: right;
+
+
+}
+
+.skills-bar .progress-bar{
+    background-color: #66fcf1;
+}
+
+.skills-bar{
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    padding: 25px 30px;
+    box-shadow: 5px 5px 10px rgba(78, 62, 141, 0.5);
+}
+
+
+/* project */
+
+#project{
+    background-color: #1f2833;
+}
+
+#project h1{
+    font-size: 3rem;
+    margin-bottom: 1.8rem;
+    color: #66fcf1;
+    padding-bottom: 2rem;
+}
+
+#project .card .text-bg{
+    background-color: #66fcf1;
+    opacity: 0.60;
+}
+.card-text{
+    color: black;
+    font-weight: 400;
+}
+#project .box-shadow{
+    box-shadow: 0px 3px 10px rgba(5, 234, 255, 0.5);
+}
+
+.box-hover{
+    position: relative;
+    cursor: pointer;
+
+}
+
+#project .project-img{
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.box-hover .middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top,#dc164e,transparent);
+   
+}
+.box-hover:hover .project-img{
+    opacity: 0.3;
+}
+.box-hover:hover .middle{
+    opacity:  3;
+}
+
+.middle .text{
+    position: relative;
+    font-size:  1.5rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    transform: translateY(95px);
+    transition: 0.5s;
+}
+
+.middle a{
+    text-decoration: none;
+    color: black;
+   
+
+}
+
+
+/* Contact  */
+
+#contact{
+    line-height: 1rem;
+   
+}
+
+hr{
+    opacity: 1;
+    padding-bottom: 4%;
+}
+.card-layout{ 
+    margin-top: 5%;
+}
+.card-whole{
+    background-color:#1f2833;
+    color: white;
+}
+.card-heading{
+    background-color : #66fcf1;
+    font-size: 3rem;
+    border-radius : 5px;
+    padding-left: 4%;
+    padding-top: 2%;
+    color: #1f2833;
+    height: 80px;
+    transform: translateY(-35px);
+}
+
+.ctext{
+    padding: 0 20px;
+    color: white;
+}
+
+
+.contactForm .sub-info{
+    padding: 20px 20px;
+    padding-top: 3%;
+}
+
+.cc{
+    width: 90%;
+    height: 7%;
+    padding: 0 20px;
+}
+
+
+
+
+.send-btn{
+  margin: 20px 20px; 
+  background-color: #66fcf1;
+  color: #1f2833; 
+  font-weight: 700;
+  padding: 10px 10px;
+
+  
+}
+
